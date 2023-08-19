@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(../Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(../Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url(../Poppins/Poppins-Thin.ttf);
+}
+
+h1{
+    font-family: "Poppins-Bold";
+    }
+
+h2{
+    font-family: "Poppins-Regular";
+}
+
+p{
+    font-family: "Poppins-Thin";  
+}
+
+h3{
+    font-family: "Poppins-Regular";
+}
+
+.menu ul li a{
+    font-family: "Poppins-Bold";
+}
+
+/* Barra de navegación */
+
+nav{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+    height: 80px;
+    padding: 0 0 0 50px;
+}
+
+
+nav ul {
+    float:right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a{
+    color: azure;
+}
+
+.menu{
+    position: fixed;
+    
+}
+
+/* Banner principal */
+.banner{
+    display: flex;
+    height: 550px;
+    background-image: url(../img/banner2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner h1{
+    font-size: 45px;
+    width: 420px;
+    padding: 150px 0 0 50px;
+    
+}
+
+.boton1{
+    background-color: #FDD600;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 9px;
+    font-size: 25px;
+    margin: 15px 0 0 50px;
+    
+
+}
+
+.boton2{
+    background-color: #FDD600;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    border-radius: 9px;
+    font-size: 25px;
+    margin-top: 15px;
+    
+
+}
+
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+
+.imagenp{
+    width: 100%;
+}
+
+
+
+/* Catálogo de productos */
+
+/* .catalogo{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.titulo1{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.nosotros2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+
+
+*/
+
+
+
+
+
+
